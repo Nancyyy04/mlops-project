@@ -51,4 +51,5 @@ def predict(data: InputData):
         "prediction": prediction,
         "label": ">50K" if prediction == 1 else "<=50K",
         "probability": round(probability, 4)
+        "model_version": "v1.0"
     }
